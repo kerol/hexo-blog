@@ -7,4 +7,5 @@ tags: resources
 
 ### Frontend
 - [vue.js](https://github.com/vuejs/vue): 数据驱动来操纵DOM实现视图的更新；
-- [parsly.js](https://github.com/guillaumepotier/Parsley.js): Validate your forms, frontend, without writing a single line of javascript；
+- [vue-resource](https://github.com/pagekit/vue-resource): The HTTP client for Vue.js
+- [parsly.js](https://github.com/guillaumepotier/Parsley.js): [文档地址](http://parsleyjs.org/doc/index.html) Validate your forms, frontend, without writing a single line of javascript；
