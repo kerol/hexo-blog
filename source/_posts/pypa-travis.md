@@ -61,6 +61,7 @@ universal=1
 python setup.py sdist
 python setup.py bdist_wheel
 # test
+# important to do unit test
 ```
 #### Step 4: Register and upload
 Register yourself in pypa.
