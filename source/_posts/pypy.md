@@ -37,7 +37,7 @@ uwsgi.ini主要配置：
 ```
 [uwsgi]
 http = :5060
-chdir =  /home/job/app/flask/flask-base
+chdir = /path/to/project/home/folder
 # cpython use module and callable, pypy use pypy-wsgi-file
 #module = app
 #callable = application
@@ -46,6 +46,6 @@ master = true
 ```
 wsgi协议app.py:
 ```
-from main_app import init
+from main_module import init 
 application = init.create_app()
 ```
